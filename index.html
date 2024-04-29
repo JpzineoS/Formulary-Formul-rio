@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meu Site de Formulário">
+    <meta name="author" content="JpzineoS">
+
+    <title>Formulários</title>
+
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <!--TITULO E SUBTITULO-->
+    <fieldset>
+    <div class="titulo">
+    
+<h1>Formulário</h1>
+<legend><b>Complete Suas Informações Aqui</b></legend> <img id="seta" src="img/25610.png" width="30">
+
+    </div>
+
+<!--INPUT TYPE text, PASSWORD E EMAIL-->
+
+
+
+<div class="campo">
+<label for="campo_nome"><strong>Nome</strong> </label>
+<input type="text" name="nome" id="campo_nome" required>
+
+<label for="campo_sobrenome"><strong>Sobrenome</strong></label>
+<Input type="text" name="sobrenome" id="campo_sobrenome" required>
+<br> 
+<label for="campo_email"><strong>Email</strong></label>
+<input type="email" name="email" id="campo_email" required>
+</div>
+
+
+
+<div class="radio">
+<p><b>Qual seu tipo de jogo favorito?</b></p>
+<input type="radio" id="acao" value="ação" name="jogo1">
+<label for="acao">Ação</label>
+
+<input type="radio" id="rpg" value="RPG" name="jogo2">
+<label for="rpg">RPG</label>
+
+<input type="radio" id="puzzle" value="Puzzle" name="jogo3">
+<label for="puzzle">Puzzle</label>
+
+</div>
+
+<div class="checkbox">
+<p><b>Você possui algum destes itens em casa?</b></p>
+<input type="checkbox" value="Tv" id="tv" name="objeto1">
+<label for="tv">TV</label>
+
+<input type="checkbox" value="Celular" id="cell" name="objeto2">
+<label for="cell">Celular</label> 
+
+<input type="checkbox" value="Computador" id="comp" name="objeto3">
+<label for="comp">Computador</label> 
+
+
+</div>
+
+<p>Deixe uma pequena avaliação falando sobre o que você achou da pesquisa! <img id="cachorrito" src="img/piscar.png" width="30"></p>
+<textarea rows="7" cols="30"></textarea>
+<br> <br>
+<select>
+    <option value="" name="" selected disabled>selecione uma cor</option>
+</select>
+
+<br> <br>
+<button type="submit" value="Enviar O Formulário">Enviar Formulário</button>
+</fieldset>
+
+
+
+    
+</body>
+
+</html>

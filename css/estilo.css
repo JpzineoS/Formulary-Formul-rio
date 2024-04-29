@@ -1,0 +1,44 @@
+.campo {
+width: 25px;
+font-family: sans-serif;
+margin-top: 10px;
+}
+
+.seta{
+    display: inline-block;
+}
+
+
+p{
+    font-size: 17px;
+}
+
+body{
+    font-family: sans-serif;
+    margin-left: 32%;
+    margin-top: 2%;
+    justify-content: center;
+    margin-right: 32%;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.checkbox{
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+legend{
+    font-size: 18px;
+}
+
+fieldset{
+    border: rgb(0, 0, 0) solid;
+    background-color: rgb(255, 255, 255);
+    width: 380px;
+}
+
+#cachorrito{
+    position: absolute;
+}
+
